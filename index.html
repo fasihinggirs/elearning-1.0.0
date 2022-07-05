@@ -1,739 +1,1186 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Fasihyuk</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
 
     <!-- Favicon -->
-    <link href="pictures/usa.png" rel="icon">
+    <link href="pictures/usa.png" rel="icon" />
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
     <!-- Spinner End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary"><i class="fa fa-book me-3"></i>Fasihyuk</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="courses.html" class="nav-item nav-link">Courses</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-down m-0">
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="event.html" class="dropdown-item">Gathering Events</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">Contact</a>
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <h2 class="m-0 text-primary">
+          <i class="fa fa-book me-3"></i>Fasihyuk
+        </h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a href="index.html" class="nav-item nav-link active">Home</a>
+          <a href="about.html" class="nav-item nav-link">About</a>
+          <a href="courses.html" class="nav-item nav-link">Courses</a>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Pages</a
+            >
+            <div class="dropdown-menu fade-down m-0">
+              <a href="team.html" class="dropdown-item">Our Team</a>
+              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              <a href="event.html" class="dropdown-item">Gathering Events</a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+          </div>
+          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
+        <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+          >Join Now<i class="fa fa-arrow-right ms-3"></i
+        ></a>
+      </div>
     </nav>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
-        <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative">
-                <video autoplay muted loop id="bg-video">
-                    <source src="img/course-video.mp4" type="video/mp4" width = 100% />
-                </video>
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Course</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Belajar Bahasa Inggris Online Ke Seluruh Dunia</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Masih bingung belajar Bahasa Inggris. Ayoo Join kesini kami menawarkan pelatihan Online Terbaik dengan kolaborasi guru dari Amerika, Jerman, Jepang, dan Philipines.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Gratis Kelas Percobaan</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Yuk Daftar Slot Terbatas</a>
-                            </div>
-                        </div>
-                    </div>
+      <div class="owl-carousel header-carousel position-relative">
+        <div class="owl-carousel-item position-relative">
+          <video autoplay muted loop id="bg-video">
+            <source src="img/course-video.mp4" type="video/mp4" width="100%" />
+          </video>
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    Best Online Course
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    Belajar Bahasa Inggris Online Ke Seluruh Dunia
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Masih bingung belajar Bahasa Inggris. Ayoo Join kesini kami
+                    menawarkan pelatihan Online Terbaik dengan kolaborasi guru
+                    dari Amerika, Jerman, Jepang, dan Philipines.
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Gratis Kelas Percobaan</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Yuk Daftar Slot Terbatas</a
+                  >
                 </div>
+              </div>
             </div>
-            <div class="owl-carousel-item position-relative">
-                <video autoplay muted loop id="bg-video">
-                    <source src="img/course-video.mp4" type="video/mp4" />
-                </video>
-                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style="background: rgba(24, 29, 56, .7);">
-                    <div class="container">
-                        <div class="row justify-content-start">
-                            <div class="col-sm-10 col-lg-8">
-                                <h5 class="text-primary text-uppercase mb-3 animated slideInDown">Best Online Course</h5>
-                                <h1 class="display-3 text-white animated slideInDown">Belajar Bahasa Inggris Online Ke Seluruh Dunia</h1>
-                                <p class="fs-5 text-white mb-4 pb-2">Kami juga memberikan pelatihan IELTS Prep dan TOEFL untuk yang melanjutkan pendidikan International ke luar negeri.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Gratis Kelas Percobaan</a>
-                                <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Yuk Daftar Slot Terbatas</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="owl-carousel-item position-relative">
+          <video autoplay muted loop id="bg-video">
+            <source src="img/course-video.mp4" type="video/mp4" />
+          </video>
+          <div
+            class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: rgba(24, 29, 56, 0.7)"
+          >
+            <div class="container">
+              <div class="row justify-content-start">
+                <div class="col-sm-10 col-lg-8">
+                  <h5
+                    class="text-primary text-uppercase mb-3 animated slideInDown"
+                  >
+                    Best Online Course
+                  </h5>
+                  <h1 class="display-3 text-white animated slideInDown">
+                    Belajar Bahasa Inggris Online Ke Seluruh Dunia
+                  </h1>
+                  <p class="fs-5 text-white mb-4 pb-2">
+                    Kami juga memberikan pelatihan IELTS Prep dan TOEFL untuk
+                    yang melanjutkan pendidikan International ke luar negeri.
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft"
+                    >Gratis Kelas Percobaan</a
+                  >
+                  <a
+                    href=""
+                    class="btn btn-light py-md-3 px-md-5 animated slideInRight"
+                    >Yuk Daftar Slot Terbatas</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Carousel End -->
 
-
     <!-- Service Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4">
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
-                            <h5 class="mb-3">Skilled Instructors</h5>
-                            <p>Mengembangkan Keterampilan, Reading, Speaking, Listening Dan Writing</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-globe text-primary mb-4"></i>
-                            <h5 class="mb-3">Online Classes</h5>
-                            <p>Semua Kelas diadakan Online yang sangat flexible untuk belajar dimana saja</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-home text-primary mb-4"></i>
-                            <h5 class="mb-3">Native Speaker</h5>
-                            <p>Pembelajaran akan berkolaborasi dengan pengajar dari Amerika, Jepang, dan Germany </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item text-center pt-3">
-                        <div class="p-4">
-                            <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
-                            <h5 class="mb-3">IELTS Prep And TOEFL</h5>
-                            <p>Kami juga memberikan pelatihan persiapan untuk mengikuti ujian International ke Luar Negeri</p>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                <h5 class="mb-3">Skilled Instructors</h5>
+                <p>
+                  Mengembangkan Keterampilan, Reading, Speaking, Listening Dan
+                  Writing
+                </p>
+              </div>
             </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                <h5 class="mb-3">Online Classes</h5>
+                <p>
+                  Semua Kelas diadakan Online yang sangat flexible untuk belajar
+                  dimana saja
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                <h5 class="mb-3">Native Speaker</h5>
+                <p>
+                  Pembelajaran akan berkolaborasi dengan pengajar dari Amerika,
+                  Jepang, dan Germany
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="service-item text-center pt-3">
+              <div class="p-4">
+                <i class="fa fa-3x fa-book-open text-primary mb-4"></i>
+                <h5 class="mb-3">IELTS Prep And TOEFL</h5>
+                <p>
+                  Kami juga memberikan pelatihan persiapan untuk mengikuti ujian
+                  International ke Luar Negeri
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <!-- Service End -->
 
-
     <!-- About Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/shortadultusa1.jpeg" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
-                    <h1 class="mb-4">Welcome to Fasih Inggris</h1>
-                    <p class="mb-4">Kami adalah layanan bimbingan belajar online Bahasa Inggris Terbaik di Indonesia. 
-                        Kami siap membantu setiap orang belajar bahasa Inggris dengan metode Learn by doing. Dengan metode ini siswa akan belajar dan melakukanya. 
-                        Bahasa Inggris adalah bahasa yang harus dikuasai karena di masa depan semua orang
-                        akan berkomunikasi dalam bahasa Inggris. Baik bekerja maupun belajar,
-                        Bahasa Inggris sangatlah penting.
-                        </p>
-                        <p>
-                        Namun, banyak yang tidak punya waktu untuk belajar. Disini, Kami menyediakan kursus 
-                        Bahasa Inggris online yang flexible. Siswa bisa belajar 
-                        Dengan guru yang profesional dalam mengajar. Dan kami juga akan berkolaborasi 
-                        mengajar dengan Native Speaker dari Amerika, Jerman dan Jepang 
-                        dengan waktu yang ditentukan.</p>
-                    <p class="mb-4"></p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Native Speaker</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Gathering Event</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Interesting Games</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>E-Certificate Completion</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
-                </div>
+      <div class="container">
+        <div class="row g-5">
+          <div
+            class="col-lg-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="min-height: 400px"
+          >
+            <div class="position-relative h-100">
+              <img
+                class="img-fluid position-absolute w-100 h-100"
+                src="img/shortadultusa1.jpeg"
+                alt=""
+                style="object-fit: cover"
+              />
             </div>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+            <h6 class="section-title bg-white text-start text-primary pe-3">
+              About Us
+            </h6>
+            <h1 class="mb-4">Welcome to Fasih Inggris</h1>
+            <p class="mb-4">
+              Kami adalah layanan bimbingan belajar online Bahasa Inggris
+              Terbaik di Indonesia. Kami siap membantu setiap orang belajar
+              bahasa Inggris dengan metode Learn by doing. Dengan metode ini
+              siswa akan belajar dan melakukanya. Bahasa Inggris adalah bahasa
+              yang harus dikuasai karena di masa depan semua orang akan
+              berkomunikasi dalam bahasa Inggris. Baik bekerja maupun belajar,
+              Bahasa Inggris sangatlah penting.
+            </p>
+            <p>
+              Namun, banyak yang tidak punya waktu untuk belajar. Disini, Kami
+              menyediakan kursus Bahasa Inggris online yang flexible. Siswa bisa
+              belajar Dengan guru yang profesional dalam mengajar. Dan kami juga
+              akan berkolaborasi mengajar dengan Native Speaker dari Amerika,
+              Jerman dan Jepang dengan waktu yang ditentukan.
+            </p>
+            <p class="mb-4"></p>
+            <div class="row gy-2 gx-4 mb-4">
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Skilled
+                  Instructors
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Online
+                  Classes
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Native
+                  Speaker
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Gathering
+                  Event
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i>Interesting
+                  Games
+                </p>
+              </div>
+              <div class="col-sm-6">
+                <p class="mb-0">
+                  <i class="fa fa-arrow-right text-primary me-2"></i
+                  >E-Certificate Completion
+                </p>
+              </div>
+            </div>
+            <a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
-
     <!-- Categories Start -->
     <div class="container-xxl py-5 category">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-                <h1 class="mb-5">Courses Categories</h1>
-            </div>
-            <div class="row g-3">
-                <div class="col-lg-7 col-md-6">
-                    <div class="row g-3">
-                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/longadultusa1.png" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Intermediate</h5>
-                                    <small class="text-primary">60 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/longadultind1.png" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Beginner</h5>
-                                    <small class="text-primary">50 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                            <a class="position-relative d-block overflow-hidden" href="">
-                                <img class="img-fluid" src="img/longkidsind1.png" alt="">
-                                <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                    <h5 class="m-0">Starter</h5>
-                                    <small class="text-primary">65 Courses</small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                    <a class="position-relative d-block h-100 overflow-hidden" href="">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/shortadultusa0.jpeg" alt="" style="object-fit: cover;">
-                        <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                            <h5 class="m-0">Advanced</h5>
-                            <small class="text-primary">50 Courses</small>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Categories Start -->
- <!-- Categories Start -->
- <div class="container-xxl py-5 category">
-    <div class="container">
+      <div class="container">
         <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
-            <h1 class="mb-5">Courses Categories</h1>
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Categories
+          </h6>
+          <h1 class="mb-5">Courses Categories</h1>
         </div>
         <div class="row g-3">
-            <div class="col-lg-7 col-md-6">
-                <div class="row g-3">
-                    <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/longadultusa2.png" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                <h5 class="m-0">Intermediate</h5>
-                                <small class="text-primary">60 Courses</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/longadultind2.png" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                <h5 class="m-0">Beginner</h5>
-                                <small class="text-primary">50 Courses</small>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
-                        <a class="position-relative d-block overflow-hidden" href="">
-                            <img class="img-fluid" src="img/longkidsind2.png" alt="">
-                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
-                                <h5 class="m-0">Starter</h5>
-                                <small class="text-primary">65 Courses</small>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
-                <a class="position-relative d-block h-100 overflow-hidden" href="">
-                    <img class="img-fluid position-absolute w-100 h-100" src="img/shortadultusa2.jpeg" alt="" style="object-fit: cover;">
-                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
-                        <h5 class="m-0">Advanced</h5>
-                        <small class="text-primary">50 Courses</small>
-                    </div>
+          <div class="col-lg-7 col-md-6">
+            <div class="row g-3">
+              <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longadultusa1.png" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Intermediate</h5>
+                    <small class="text-primary">60 Courses</small>
+                  </div>
                 </a>
+              </div>
+              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longadultind1.png" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Beginner</h5>
+                    <small class="text-primary">50 Courses</small>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longkidsind1.jpeg" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Starter</h5>
+                    <small class="text-primary">65 Courses</small>
+                  </div>
+                </a>
+              </div>
             </div>
+          </div>
+          <div
+            class="col-lg-5 col-md-6 wow zoomIn"
+            data-wow-delay="0.7s"
+            style="min-height: 350px"
+          >
+            <a class="position-relative d-block h-100 overflow-hidden" href="">
+              <img
+                class="img-fluid position-absolute w-100 h-100"
+                src="img/shortadultusa0.jpeg"
+                alt=""
+                style="object-fit: cover"
+              />
+              <div
+                class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                style="margin: 1px"
+              >
+                <h5 class="m-0">Advanced</h5>
+                <small class="text-primary">50 Courses</small>
+              </div>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Categories Start -->
+    <!-- Categories Start -->
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Categories
+          </h6>
+          <h1 class="mb-5">Courses Categories</h1>
+        </div>
+        <div class="row g-3">
+          <div class="col-lg-7 col-md-6">
+            <div class="row g-3">
+              <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longadultusa2.png" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Intermediate</h5>
+                    <small class="text-primary">60 Courses</small>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longadultind2.png" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Beginner</h5>
+                    <small class="text-primary">50 Courses</small>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                <a class="position-relative d-block overflow-hidden" href="">
+                  <img class="img-fluid" src="img/longkidsind2.png" alt="" />
+                  <div
+                    class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                    style="margin: 1px"
+                  >
+                    <h5 class="m-0">Starter</h5>
+                    <small class="text-primary">65 Courses</small>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-5 col-md-6 wow zoomIn"
+            data-wow-delay="0.7s"
+            style="min-height: 350px"
+          >
+            <a class="position-relative d-block h-100 overflow-hidden" href="">
+              <img
+                class="img-fluid position-absolute w-100 h-100"
+                src="img/shortadultusa2.jpeg"
+                alt=""
+                style="object-fit: cover"
+              />
+              <div
+                class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3"
+                style="margin: 1px"
+              >
+                <h5 class="m-0">Advanced</h5>
+                <small class="text-primary">50 Courses</small>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Categories Start -->
 
     <!-- Courses Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
-                <h1 class="mb-5">Popular Courses</h1>
-            </div>
-            <div class="row g-4 justify-content-center">
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/shortindkids1.png" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">Story Telling</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small clas30s="fa fa-star text-primary"></small>
-                                <small>(25)</small>
-                            </div>
-                            <h5 class="mb-4">Anak Anak Usia 6 - 12 Tahun</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/shortsdultind1.png" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">Conversation</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(20)</small>
-                            </div>
-                            <h5 class="mb-4">Remaja Usia 13 - 17 Tahun </h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="course-item bg-light">
-                        <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/shortadultind2.png" alt="">
-                            <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4 pb-0">
-                            <h3 class="mb-0">TOEFL and IELTS Prep</h3>
-                            <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small>(15)</small>
-                            </div>
-                            <h5 class="mb-4">Dewasa Usia 18 - 50 Tahun</h5>
-                        </div>
-                        <div class="d-flex border-top">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Courses
+          </h6>
+          <h1 class="mb-5">Popular Courses</h1>
         </div>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/shortindkids1.jpg" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Read More</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">Story Telling</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small clas30s="fa fa-star text-primary"></small>
+                  <small>(25)</small>
+                </div>
+                <h5 class="mb-4">Anak Anak Usia 6 - 12 Tahun</h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>John
+                  Doe</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>30
+                  Students</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/shortsdultind1.png" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Read More</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">Conversation</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(20)</small>
+                </div>
+                <h5 class="mb-4">Remaja Usia 13 - 17 Tahun</h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>John
+                  Doe</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>30
+                  Students</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="course-item bg-light">
+              <div class="position-relative overflow-hidden">
+                <img class="img-fluid" src="img/shortadultind2.png" alt="" />
+                <div
+                  class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4"
+                >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end"
+                    style="border-radius: 30px 0 0 30px"
+                    >Read More</a
+                  >
+                  <a
+                    href="#"
+                    class="flex-shrink-0 btn btn-sm btn-primary px-3"
+                    style="border-radius: 0 30px 30px 0"
+                    >Join Now</a
+                  >
+                </div>
+              </div>
+              <div class="text-center p-4 pb-0">
+                <h3 class="mb-0">TOEFL and IELTS Prep</h3>
+                <div class="mb-3">
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small class="fa fa-star text-primary"></small>
+                  <small>(15)</small>
+                </div>
+                <h5 class="mb-4">Dewasa Usia 18 - 50 Tahun</h5>
+              </div>
+              <div class="d-flex border-top">
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-user-tie text-primary me-2"></i>John
+                  Doe</small
+                >
+                <small class="flex-fill text-center border-end py-2"
+                  ><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small
+                >
+                <small class="flex-fill text-center py-2"
+                  ><i class="fa fa-user text-primary me-2"></i>30
+                  Students</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Courses End -->
 
-
     <!-- Team Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Instructors</h6>
-                <h1 class="mb-5">Expert Instructors</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/Wood.jpeg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Wood</h5>
-                            <small>A Programmer Utah The USA</small>
-                        </div>
-                    </div> 
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/Sarah.jpeg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Ms Sarah</h5>
-                            <small>A Manager Hawaii The USA</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/Ibuki.jpeg"  alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Ibuki</h5>
-                            <small>An Accountant Tokyo Japan</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/nuel.jpeg"  alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Nuel</h5>
-                            <small>An English Teacher Jakarta Indonesia</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/craig2.jpeg"  alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Craig</h5>
-                            <small>A Movie Director Las Vegas The USA</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/Ma.jpeg"  alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Ms Mariele</h5>
-                            <small>An English Teacher Manila Philippines</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/chris2.jpeg"  alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Chris</h5>
-                            <small>A Surgical Assistant Texas The USA</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item bg-light">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="pictures/Daniel.jpeg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -23px;">
-                            <div class="bg-light d-flex justify-content-center pt-2 px-1">
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Mr Daniel</h5>
-                            <small>A Bussiness Owner Berlin Germany </small>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Instructors
+          </h6>
+          <h1 class="mb-5">Expert Instructors</h1>
         </div>
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/Wood.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Wood</h5>
+                <small>A Programmer Utah The USA</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/Sarah.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms Sarah</h5>
+                <small>A Manager Hawaii The USA</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/Ibuki.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Ibuki</h5>
+                <small>An Accountant Tokyo Japan</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/nuel.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Nuel</h5>
+                <small>An English Teacher Jakarta Indonesia</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/craig2.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Craig</h5>
+                <small>A Movie Director Las Vegas The USA</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/Ma.jpeg" alt="Ph" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Ms Mariele</h5>
+                <small>An English Teacher Manila Philippines</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/chris2.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Chris</h5>
+                <small>A Surgical Assistant Texas The USA</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="team-item bg-light">
+              <div class="overflow-hidden">
+                <img class="img-fluid" src="pictures/Daniel.jpeg" alt="" />
+              </div>
+              <div
+                class="position-relative d-flex justify-content-center"
+                style="margin-top: -23px"
+              >
+                <div class="bg-light d-flex justify-content-center pt-2 px-1">
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a class="btn btn-sm-square btn-primary mx-1" href=""
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="text-center p-4">
+                <h5 class="mb-0">Mr Daniel</h5>
+                <small>A Bussiness Owner Berlin Germany </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Team End -->
 
-
     <!-- Testimonial Start -->
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="text-center">
-                <h6 class="section-title bg-white text-center text-primary px-3">Testimonial</h6>
-                <h1 class="mb-5">Our Students Say!</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel position-relative">
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/ales.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Ales</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Materi yang diajarkan bertaraf International dan sangat berkaitan dengan apa yang saya pelajari di sekolah International</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/farel.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Farel</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">It is fun and it encourages me to be competitive. Sometimes in learning, and sometimes during the games after the lesson.
-                        By far, it's been great. I've been enjoying it for the past few months, I'm hoping there'd be more students, the more the merrier. And the more challenging it'll be</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/wildan.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Wildan</h5>
-                    <p>Doctor</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Pembelajaranya sangat menarik sekali karena kita bisa bercakap cakap langsung dengan Native Speaker dari Amerika</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/kevin.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Kevin</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Saya sangat senang belajar disini karena gurunya sangat pintar dan lucu sekali. Teman teman saya juga sangat menyenangkan.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/Jason.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Jason</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Saya sangat senang belajar disini karena gurunya sangat pintar dan lucu sekali. Teman teman saya juga sangat menyenangkan.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/Bintang.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Bintang</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">Saya sangat senang belajar bersama disini karena tidak membuat bosan. Banyak teman saya yang pintar bahasa inggris disini, dan belajarnya sangat menarik karena menggunakan video juga.</p>
-                    </div>
-                </div>
-                <div class="testimonial-item text-center">
-                    <img class="border rounded-circle p-2 mx-auto mb-3" src="pictures/Tasya.jpeg" style="width: 80px; height: 80px;">
-                    <h5 class="mb-0">Tasya</h5>
-                    <p>Student</p>
-                    <div class="testimonial-text bg-light text-center p-4">
-                    <p class="mb-0">I think this course is the perfect course for me. It’s fun, interactive and educative. I always tend to get sleepy in online classes but this course is different? Never. I always enjoy every session so much! It feels like casually chatting with my friends but at the end of the day I learned a lot of new things that sharpen my english skills.</p>
-                    </div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="text-center">
+          <h6 class="section-title bg-white text-center text-primary px-3">
+            Testimonial
+          </h6>
+          <h1 class="mb-5">Our Students Say!</h1>
         </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/ales.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Ales</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Materi yang diajarkan bertaraf International dan sangat
+                berkaitan dengan apa yang saya pelajari di sekolah International
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/farel.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Farel</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                It is fun and it encourages me to be competitive. Sometimes in
+                learning, and sometimes during the games after the lesson. By
+                far, it's been great. I've been enjoying it for the past few
+                months, I'm hoping there'd be more students, the more the
+                merrier. And the more challenging it'll be
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/wildan.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Wildan</h5>
+            <p>Doctor</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Pembelajaranya sangat menarik sekali karena kita bisa bercakap
+                cakap langsung dengan Native Speaker dari Amerika
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/kevin.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Kevin</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Saya sangat senang belajar disini karena gurunya sangat pintar
+                dan lucu sekali. Teman teman saya juga sangat menyenangkan.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/justin.jpg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Justin</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Gurunya sangat lucu dan pintar. Teman - teman saya pintar semua.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/kenzie.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Kenzie</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                What i like about the english course is, everyone's cheerful and
+                Mr Nuel's learning schedule is perfect. it's incredibly fun,
+                because the games and stuff on daily basis, not each week
+                because there'll be lack of learning. in conclusion, the class
+                meeting's great, its efficient and Mr Nuel's effort to teach us
+                is incredible.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/Jason.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Jason</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Saya sangat senang belajar disini karena gurunya sangat pintar
+                dan lucu sekali. Teman teman saya juga sangat menyenangkan.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/Bintang.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Bintang</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                Saya sangat senang belajar bersama disini karena tidak membuat
+                bosan. Banyak teman saya yang pintar bahasa inggris disini, dan
+                belajarnya sangat menarik karena menggunakan video juga.
+              </p>
+            </div>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="border rounded-circle p-2 mx-auto mb-3"
+              src="pictures/Tasya.jpeg"
+              style="width: 80px; height: 80px"
+            />
+            <h5 class="mb-0">Tasya</h5>
+            <p>Student</p>
+            <div class="testimonial-text bg-light text-center p-4">
+              <p class="mb-0">
+                I think this course is the perfect course for me. It’s fun,
+                interactive and educative. I always tend to get sleepy in online
+                classes but this course is different? Never. I always enjoy
+                every session so much! It feels like casually chatting with my
+                friends but at the end of the day I learned a lot of new things
+                that sharpen my english skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Testimonial End -->
-        
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Quick Link</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Privacy Policy</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">FAQs & Help</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Contact</h4>
-                    <a href="https://wa.me/6285156406578"><img src="pictures/what.png" alt="Whatsup"></a> <br> <br>
-                   
-                    <a href=" https://www.instagram.com/fasihyuks"><img src="pictures/inst.png" alt="Instagram" /></a>
-                    <br><br>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0851 - 5640 - 6578</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>fasihyuks@gmail.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-white mb-3">More Information</h4>
-                    <p>Kami menunggu anda disini dengan senang hati. Sampai Bertemu</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">https://fasihinggirs.github.io/fasihyuk/</a>, All Right Reserved 2022.
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Quick Link</h4>
+            <a class="btn btn-link" href="">About Us</a>
+            <a class="btn btn-link" href="">Contact Us</a>
+            <a class="btn btn-link" href="">Privacy Policy</a>
+            <a class="btn btn-link" href="">Terms & Condition</a>
+            <a class="btn btn-link" href="">FAQs & Help</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Contact</h4>
+            <a href="https://wa.me/6285156406578"
+              ><img src="pictures/what.png" alt="Whatsup"
+            /></a>
+            <br />
+            <br />
 
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">FasihInggris</a><br><br>
-                        Distributed By <a class="border-bottom" href="https://themewagon.com">Fasihyuk</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <div class="footer-menu">
-                            <a href="">Home</a>
-                            <a href="">Cookies</a>
-                            <a href="">Help</a>
-                            <a href="">FQAs</a>
-                        </div>
-                    </div>
-                </div>
+            <a href=" https://www.instagram.com/fasihyuks"
+              ><img src="pictures/inst.png" alt="Instagram"
+            /></a>
+            <br /><br />
+            <p class="mb-2">
+              <i class="fa fa-phone-alt me-3"></i>0851 - 5640 - 6578
+            </p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>fasihyuks@gmail.com
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
             </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">Gallery</h4>
+            <div class="row g-2 pt-2">
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <img
+                  class="img-fluid bg-light p-1"
+                  src="img/course-1.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-white mb-3">More Information</h4>
+            <p>Kami menunggu anda disini dengan senang hati. Sampai Bertemu</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control border-0 w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy;
+              <a class="border-bottom" href="#"
+                >https://fasihinggirs.github.io/fasihyuk/</a
+              >, All Right Reserved 2022.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://htmlcodex.com"
+                >FasihInggris</a
+              ><br /><br />
+              Distributed By
+              <a class="border-bottom" href="https://themewagon.com"
+                >Fasihyuk</a
+              >
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">Home</a>
+                <a href="">Cookies</a>
+                <a href="">Help</a>
+                <a href="">FQAs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- Footer End -->
 
-
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
-
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -745,6 +1192,5 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
